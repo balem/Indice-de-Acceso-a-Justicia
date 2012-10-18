@@ -1,0 +1,205 @@
+*,body,html
+{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+body{
+	background:url(bg.png);
+}
+
+h1, h2, h3
+{
+	padding:5px;
+	margin-bottom:15px;
+}
+
+h1
+{
+	font-size:20px;
+}
+h2
+{
+	font-size:18px;
+}
+h3
+{
+	font-size:16px;
+}
+
+p
+{
+	margin-bottom:3px;
+}
+
+a{
+	text-decoration:none;
+	color:#185359;
+}
+
+#main
+{
+	min-width:800px;
+}
+
+#header
+{
+	background:#185359;
+	color:#ffffff;
+	margin-bottom:15px;
+	height:120px;
+}
+
+#header #logo
+{
+	background:url(logoobservatorioweb.png) no-repeat 20px 15px;
+	height:90px;
+	padding-left:300px;
+	padding-top:25px;
+}
+
+#user-menu
+{
+	background: none repeat scroll 0 0 #185359;
+	color: #FFFFFF;
+	text-align: right;
+	padding:5px;
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+#user-menu a
+{
+	color:inherit;
+	text-decoration:none;
+}
+
+#loginForm
+{
+	width:400px;
+	background:#f8f8f8;
+	margin:15px auto;
+	padding:5px;
+}
+
+#loginForm input.myTxt
+{
+	padding:8px;
+	margin-bottom:25px;
+	width:100%;
+	border:1px solid #6FA7D1;
+}
+
+#main-menu
+{
+	width:800px;
+	background:#f8f8f8;
+	margin:15px auto;
+	padding:5px 5px 20px;
+	text-align:center;
+}
+
+.h2_title
+{
+	/*border-bottom:solid 1px #185359;	*/
+	text-align:left;
+	color:#185359;
+}
+
+#main-menu ul
+{
+	list-style:none;
+}
+
+#main-menu #index_list li
+{
+	display:inline-block;
+	margin:5px 35px;
+}
+
+#nav-menu
+{
+	margin-top:-15px;
+	height:30px;
+	background:#1e656c;
+}
+
+#nav-menu li
+{
+	display:inline-block;
+	vertical-align:middle;
+	padding:7px;
+	color:#ffffff;
+}
+
+#nav-menu a
+{
+	text-decoration:none;
+	color:inherit;
+}
+
+#nav-menu li.home
+{
+	background:#F90;
+}
+
+#main-menu #user-list
+{
+	width:95%;
+	margin:20px auto;
+	text-align:left;
+}
+
+#main-menu #user-list th
+{
+	width:33%;
+	padding:5px;
+	background:#1E656C;
+	color:#FFFFFF;
+	vertical-align:top;
+}
+
+#main-menu #user-list td
+{
+	padding:10px;
+	border-bottom:1px solid #cccccc;
+}
+
+.button-new-top-right
+{
+	text-align:right;
+	float:right;
+	padding:10px;
+}
+
+.button-new-top-right a
+{
+	color:#FF9900;
+	font-weight:bold;
+}
+
+.var-list
+{
+	padding:5px;
+	width:200px;
+}
+
+.input_radio
+{
+	width:80px !important;
+}
+
+.text_input_carga
+{
+	width:135px !important;
+}
+
+.results_coments_row
+{
+	display:block;
+	color:#666666;
+	margin-top:15px;
+	font-size:9px;
+}
